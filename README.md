@@ -161,20 +161,20 @@ It's recommended to include any npcs and custom magic items (+1 Flaming Greatswo
 
 **Example:**
 
-TG Encounters
+-TG Encounters
     - Part 1
         - B1. Area Name
             - NPC 1
             - NPC 2
         - B3. Area Name
             - LootNPC with Treasure inside
-    Part 2
+    - Part 2
         - C1. Area Name
             -Boss 1
             - NPC 3
             - NPC 4
-    Part 3
-    Random Encounters
+    - Part 3
+    - Random Encounters
         - CR X
             - Monster 1
             - Monster 2
