@@ -1,0 +1,65 @@
+{
+    "name": "ap-template",
+    "title": "AP Creation Tool",
+    "description": "This is a pre-made module template for the creation of Adventure Paths and Homebrew adventures. It is based on the structure of Pathfinder AP's (3 Parts with Appendices) but can be adopted for other systems. Please read the READ ME journal, as it explains how I set things up, and some suggestions to speed up your adventure creations.",
+    "version": "0.1.0",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion": "0.7.9",
+    "systems": ["pf1"],
+    "author": "fadedshadow589#8270",
+    "url":"",
+    "manifest": "",
+    "download":"",
+    "readme":"",
+    "changelog":"",
+    "packs": [
+    {
+      "name": "ap1-items",
+      "label": "AP 1 - Items",
+      "system": "pf1",
+      "path": "packs/ap1-items.db",
+      "entity": "Item",
+      "module": "ap-template"
+    },      
+    {
+      "name": "ap1-npcs",
+      "label": "AP 1 - NPCs",
+      "system": "pf1",
+      "path": "packs/ap1-npcs.db",
+      "entity": "Actor",
+      "module": "ap-template"
+    },
+    {
+      "name": "ap1-scenes",
+      "label": "AP 1 - Maps",
+      "system": "pf1",
+      "path": "packs/ap1-maps.db",
+      "entity": "Scene",
+      "module": "ap-template"
+    },
+    {
+      "name": "ap1-journals",
+      "label": "AP 1 - Journal",
+      "system": "pf1",
+      "path": "packs/ap1-journals.db",
+      "entity": "JournalEntry",
+      "module": "ap-template"
+    },
+    {
+      "name": "ap1-encounters",
+      "label": "AP 1 - Encounters",
+      "system": "pf1",
+      "path": "packs/ap1-encounters.db",
+      "entity": "Actor",
+      "module": "ap-template"
+    },
+    {
+      "name": "ap1-tables",
+      "label": "AP 1 - Tables",
+      "system": "pf1",
+      "path": "packs/ap1-tables.db",
+      "entity": "RollTable",
+      "module": "ap-template"
+    }]
+  }
+  
