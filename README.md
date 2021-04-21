@@ -5,6 +5,7 @@ This is a pre-made module template for the creation of Adventure Paths and Homeb
 
 It is set up with compendiums for items, npcs, encounters, journals, and tables.
 
+
 ## How to use this AP Template
 This AP template was created to provide some framework for GM's to create and structure their AP games in Foundry VTT. 
 
@@ -46,7 +47,6 @@ Might change to:
 "title": "TG 1 - The Dead Roads", 
 ```
 
- 
 
 While 
 ``` 
@@ -93,7 +93,7 @@ As an example:
 - (Index) Part 3: Title
   - H. Location Name
       - H1. Area Name
-      - H2. Area Name ( You are on this page) 
+      - **H2. Area Name** ( You are on this page) 
 
 
 ## Creating a New AP Index
