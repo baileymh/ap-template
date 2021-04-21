@@ -34,29 +34,29 @@ Rename as appropriate so that the names and labels make sense. Name is how the s
 Foundry will create blank .db of the same name below, if there isn't one found in the folder.
 
 
-```"name": "ap-tempalte",
-"title": "AP Name 1 - Book Name",```
+``"name": "ap-tempalte",
+"title": "AP Name 1 - Book Name",``
 
 Might change to:
 
-```"name": "tg1-thedeadroads",
-"title": "TG 1 - The Dead Roads",```
+``"name": "tg1-thedeadroads",
+"title": "TG 1 - The Dead Roads",``
 
  
 
 While 
-```{
+``{
  "name": "ap1-items",
  "label": "AP 1 - Items",
  "system": "pf1",
  "path": "packs/ap1-items.db",
  "entity": "Item",
  "module": "ap-template"
-},```
+},``
 
 Might change to:
 
-```{
+``{
  "name": "tg1-items",
  "label": "TG 1 - Items",
  "system": "pf1",
@@ -64,7 +64,7 @@ Might change to:
  "entity": "Item",
  "module": "tg1-thedeadroads"
 
-},```
+},``
 
 
 Make sure that you change the actual .db names within your new module folder to match the above changes, or it will create new blank .db without any information/content.
@@ -154,24 +154,24 @@ It's recommended to include any npcs and custom magic items (+1 Flaming Greatswo
 **Example:**
 
 TG Encounters
-    Part 1
-    ....B1. Area Name
-        ....NPC 1
-        ....NPC 2
-    ....B3. Area Name
-        ....LootNPC with Treasure inside
-    Part 2
-    ....C1. Area Name
-        ....Boss 1
-        ....NPC 3
-        ....NPC 4
-    Part 3
-    Random Encounters
-    ....CR X
-        ....Monster 1
-        ....Monster 2
-    ....CR Y
-        ....Monster 3
+ Part 1
+  B1. Area Name
+   NPC 1
+   NPC 2
+  B3. Area Name
+   LootNPC with Treasure inside
+ Part 2
+  C1. Area Name
+   Boss 1
+   NPC 3
+   NPC 4
+ Part 3
+ Random Encounters
+  CR X
+   Monster 1
+   Monster 2
+  CR Y
+   Monster 3
 
 Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside. 
 
