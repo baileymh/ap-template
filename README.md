@@ -36,20 +36,20 @@ Foundry will create blank .db of the same name below, if there isn't one found i
 
 ```
 "name": "ap-tempalte",
-"title": "AP Name 1 - Book Name",
+"title": "AP Name 1 - Book Name", 
 ```
 
 Might change to:
 
-```
+``` 
 "name": "tg1-thedeadroads",
-"title": "TG 1 - The Dead Roads",
+"title": "TG 1 - The Dead Roads", 
 ```
 
  
 
 While 
-```
+``` 
 {
  "name": "ap1-items",
  "label": "AP 1 - Items",
@@ -57,7 +57,7 @@ While
  "path": "packs/ap1-items.db",
  "entity": "Item",
  "module": "ap-template"
-},
+}, 
 ```
 
 Might change to:
@@ -92,9 +92,9 @@ The page you are currently on should be in bold, allowing you to easily see wher
 As an example:
 --------
 (Index) Part 3: Title
-    H. Location Name
-        H1. Area Name
-        H2. Area Name ( < -- You are on this page) 
+    - H. Location Name
+        - H1. Area Name
+        - H2. Area Name ( < -- You are on this page) 
 --------
 
 ## Creating a New AP Index
@@ -136,17 +136,17 @@ It seems complicated, but once you do it, it'll make more sense. Below are the s
 ### Steps
 1. Open **Outline.txt** from the module folder.
 2. Edit the list to match the outline of the AP.
-    **NOTE:** I usually look at the bookmarks and rename as I go, but there are ways to export a list of Bookmarks from PDFs - use google. 
+    - **NOTE:** I usually look at the bookmarks and rename as I go, but there are ways to export a list of Bookmarks from PDFs - use google. 
 3. Once the list is finished, copy and paste it into the **Import-Journal.csv,** under the name column.
 4. Save the .csv as **APBookName.csv** or whatever is convenient for you. 
 5. Use the Show Toolbar macro provided by Data Toolkit (Data Macros Compendium)
 6. Set **Entity type** to Journal, **Source file** will be the .csv you just saved, and **Template** will be the **Journal-Template.json** 
 7. Set the ccompendium name to whatever you like.
-    **NOTE:** If you set it as the same compendium name for the template journals, it will attempt to overwrite the exisiting journals if you check Merge by Name. Not merging will result in duplicates. 
+    - **NOTE:** If you set it as the same compendium name for the template journals, it will attempt to overwrite the exisiting journals if you check Merge by Name. Not merging will result in duplicates. 
 8. You should now have a compendium full of all the entries you will be making. 
 9. From here, you can choose to do either:
     A. Use the new compendium as the primary filling in the rest.
-        **NOTE:** Be sure to add the indexes, along with the 0.0.X journal entries to the new compendium.
+        - **NOTE:** Be sure to add the indexes, along with the 0.0.X journal entries to the new compendium.
     B. Drag and Drop the newly created entries into the provided journal compendium, and delete the old entries.
 10. Create a new index (see above), and copy-paste those entity links into the appropriate indexes and journals for linking. 
  
@@ -162,28 +162,28 @@ It's recommended to include any npcs and custom magic items (+1 Flaming Greatswo
 **Example:**
 
 TG Encounters
- Part 1
-  B1. Area Name
-   NPC 1
-   NPC 2
-  B3. Area Name
-   LootNPC with Treasure inside
- Part 2
-  C1. Area Name
-   Boss 1
-   NPC 3
-   NPC 4
- Part 3
- Random Encounters
-  CR X
-   Monster 1
-   Monster 2
-  CR Y
-   Monster 3
+    - Part 1
+        - B1. Area Name
+            - NPC 1
+            - NPC 2
+        - B3. Area Name
+            - LootNPC with Treasure inside
+    Part 2
+        - C1. Area Name
+            -Boss 1
+            - NPC 3
+            - NPC 4
+    Part 3
+    Random Encounters
+        - CR X
+            - Monster 1
+            - Monster 2
+        - CR Y
+            - Monster 3
 
-Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside. 
+Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
 
- 
+
 
 If you want to create encounters in this fashion, I've created a folder template for AP use in the **AP 1 - Encounters** compendium.
 
