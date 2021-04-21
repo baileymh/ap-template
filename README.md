@@ -176,9 +176,9 @@ The most effective way I've found for organizing and creating encounters is to t
             - Monster 2
         - CR Y
             - Monster 3
-
-Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
 -------
+Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
+
 If you want to create encounters in this fashion, I've created a folder template for AP use in the **AP 1 - Encounters** compendium.
 
 Alternatively, you can use **AP 1 - NPCs** to toss all your npcs in there if you don't use Compendium Folders. 
