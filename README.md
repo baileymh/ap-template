@@ -1,9 +1,16 @@
 # ap-template
 Adventure Path creation tool for Foundry VTT
 
-This is a pre-made module template for the creation of Adventure Paths and Homebrew adventures. It is based on the structure of Pathfinder AP's (3 Parts with Appendices) but can be adopted for other systems. Please read below, as it explains how I set things up, and some suggestions to speed up your adventure creations.
+This is a pre-made module template for the creation of Adventure Paths and Homebrew adventures. It is based on the structure of Pathfinder AP's (3 Parts with Appendices) but can be adopted for other systems. 
+Please read below, as it explains how I set things up, and some suggestions to speed up your adventure creations.
 
-It is set up with compendiums for items, npcs, encounters, journals, and tables.
+It is set up with compendiums for items, npcs, encounters, journals, and tables. And is intended to provide a framework for others to build AP's off of. (Feedback welcome)
+
+
+# Installation
+
+To install this module, use the following link in the foundry browser:
+https://raw.githubusercontent.com/baileymh/ap-template/main/module.json
 
 
 # How to use this AP Template
