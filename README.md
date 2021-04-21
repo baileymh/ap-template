@@ -70,7 +70,6 @@ Might change to:
  "path": "packs/tg1-items.db",
  "entity": "Item",
  "module": "tg1-thedeadroads"
-
 },
 ```
 
@@ -123,7 +122,6 @@ There are a couple ways you might be able to effeciently navigate this:
 ## Using Data Toolbox and Excel
 Given the sheer volume of entries an AP can have, it might be more prudent to use some automation. Below is a method I've used to help speed things up in creating the journal entries. 
 
- 
 
 Included in the **/modules/ap-template/assets/** folder are three files. One is a .json that can be used with Data Toolbox's Compendium Generation tool, which allows you to create a compendium of entries based on a .csv file. 
 
