@@ -6,7 +6,7 @@ This is a pre-made module template for the creation of Adventure Paths and Homeb
 It is set up with compendiums for items, npcs, encounters, journals, and tables.
 
 
-## How to use this AP Template
+# How to use this AP Template
 This AP template was created to provide some framework for GM's to create and structure their AP games in Foundry VTT. 
 
 Detailed below are tips/how-to for the following:
@@ -17,14 +17,15 @@ Detailed below are tips/how-to for the following:
 * How to easily create a new index with entity links
 * How to use Data toolbox to speed up creating journal entries
 * Tips on creating Encounters
- 
+
+-------
 
 ## Creating a Duplicate folder
 It is recommended that you create a duplicate of this module folder, and rename the folder and the values within the module.json. This allows you to keep this template for future books, while setting the appropriate name of the module and compendiums ahead of time. 
 
 **For example:** you might copy and rename the **/modules/ap-template/** module folder to **/modules/tg1-thedeadroads/**  - if you were trying to create book 1 of Tyrant's Grasp. 
 
- 
+--------
 
 ## Editing the module.json
 Within the module.json:
@@ -76,6 +77,7 @@ Might change to:
 
 Make sure that you change the actual .db names within your new module folder to match the above changes, or it will create new blank .db without any information/content.
  
+-------
 
 ## Indexes, and linking
 The items are listed in an organized fashion to help keep things structured. Indexes have been created with a few links, so that the AP book is easily navigated. On most pages I have included a set of links/text at the top to mirror a quick navigation system. 
@@ -95,15 +97,16 @@ As an example:
       - H1. Area Name
       - **H2. Area Name** ( You are on this page) 
 
-
+-----------
 ## Creating a New AP Index
 After you have the entries in the compendium, you may want to create/update the index without dragging and dropping a few dozen links. Included in this module is a macro that let's you specify a compendium and it will general a journal with a list of all the entity links. 
 
 By using this, and a little time organizing/formatting them, it significantly speeds up the creation of a link index. 
 
 ### Steps
-Open the AP-Template Macro compendium and import Create Entity List. Edit the macro (make sure it is set as script not chat), and replace the key name, to be the name of the compendium. Naming scheme is `moduleName.compendiumName`. 
+Open the AP-Template Macro compendium and import **Create Entity List**. Edit the macro (make sure it is set as script not chat), and replace the **key** name, to be the name of the compendium. Naming scheme is `moduleName.compendiumName`. 
  
+------
 
 ## Linking the entries - Avoiding broken links
 It should be easy to expand the links as you add sections. Remember that links are specific to the source.
@@ -117,11 +120,11 @@ There are a couple ways you might be able to effeciently navigate this:
 * Import this journal compendium into the world, replace and rename as needed, add all the text, without links. Export the folder back into the compendium after deleting old/invalid entries. Then edit the newly created entries in the journal, to add links (that will now be correct). 
 
 * Use the Data Toolbox and excel to create the structure for you, and import them. (Recommended - See below for details)
- 
+
+------
 
 ## Using Data Toolbox and Excel
 Given the sheer volume of entries an AP can have, it might be more prudent to use some automation. Below is a method I've used to help speed things up in creating the journal entries. 
-
 
 Included in the **/modules/ap-template/assets/** folder are three files. One is a .json that can be used with Data Toolbox's Compendium Generation tool, which allows you to create a compendium of entries based on a .csv file. 
 
@@ -148,17 +151,12 @@ It seems complicated, but once you do it, it'll make more sense. Below are the s
    - B. Drag and Drop the newly created entries into the provided journal compendium, and delete the old entries.
 10. Create a new index (see above), and copy-paste those entity links into the appropriate indexes and journals for linking. 
  
-
+------
 
 ## Creating Encounters
 The most effective way I've found for organizing and creating encounters is to to Compendium Folders module and create a compendium separated by AP Parts, with Encounters contained within folders for their respective areas. 
 
-
-### Best Practice Tip
-It's recommended to include any npcs and custom magic items (+1 Flaming Greatsword, etc.) in the module, rather than just assume the end-user will have it. 
-
 **Example:**
-
 -TG Encounters
  - Part 1
       - B1. Area Name
@@ -180,9 +178,7 @@ It's recommended to include any npcs and custom magic items (+1 Flaming Greatswo
             - Monster 3
 
 Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
-
-
-
+-------
 If you want to create encounters in this fashion, I've created a folder template for AP use in the **AP 1 - Encounters** compendium.
 
 Alternatively, you can use **AP 1 - NPCs** to toss all your npcs in there if you don't use Compendium Folders. 
