@@ -83,19 +83,19 @@ The items are listed in an organized fashion to help keep things structured. Ind
 
 ### Link to Part Index
 
-Link to Locations
-    Link to Areas within Location
-        Link to Special Text for Areas
+- Link to Locations
+  - Link to Areas within Location
+    - Link to Special Text for Areas
 
 The page you are currently on should be in bold, allowing you to easily see where you are relative to the other sections: 
 
 As an example:
---------
-(Index) Part 3: Title
-    - H. Location Name
-        - H1. Area Name
-        - H2. Area Name ( < -- You are on this page) 
---------
+
+- (Index) Part 3: Title
+  - H. Location Name
+      - H1. Area Name
+      - H2. Area Name ( You are on this page) 
+
 
 ## Creating a New AP Index
 After you have the entries in the compendium, you may want to create/update the index without dragging and dropping a few dozen links. Included in this module is a macro that let's you specify a compendium and it will general a journal with a list of all the entity links. 
@@ -145,9 +145,9 @@ It seems complicated, but once you do it, it'll make more sense. Below are the s
     - **NOTE:** If you set it as the same compendium name for the template journals, it will attempt to overwrite the exisiting journals if you check Merge by Name. Not merging will result in duplicates. 
 8. You should now have a compendium full of all the entries you will be making. 
 9. From here, you can choose to do either:
-    A. Use the new compendium as the primary filling in the rest.
-        - **NOTE:** Be sure to add the indexes, along with the 0.0.X journal entries to the new compendium.
-    B. Drag and Drop the newly created entries into the provided journal compendium, and delete the old entries.
+   - A. Use the new compendium as the primary filling in the rest.
+     - **NOTE:** Be sure to add the indexes, along with the 0.0.X journal entries to the new compendium.
+   - B. Drag and Drop the newly created entries into the provided journal compendium, and delete the old entries.
 10. Create a new index (see above), and copy-paste those entity links into the appropriate indexes and journals for linking. 
  
 
@@ -162,12 +162,12 @@ It's recommended to include any npcs and custom magic items (+1 Flaming Greatswo
 **Example:**
 
 -TG Encounters
-    - Part 1
-        - B1. Area Name
-            - NPC 1
-            - NPC 2
-        - B3. Area Name
-            - LootNPC with Treasure inside
+ - Part 1
+      - B1. Area Name
+        - NPC 1
+        - NPC 2
+      - B3. Area Name
+        - LootNPC with Treasure inside
     - Part 2
         - C1. Area Name
             -Boss 1
