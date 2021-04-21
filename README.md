@@ -161,7 +161,7 @@ It seems complicated, but once you do it, it'll make more sense. Below are the s
 ------
 
 ## Creating Encounters
-The most effective way I've found for organizing and creating encounters is to to Compendium Folders module and create a compendium separated by AP Parts, with Encounters contained within folders for their respective areas. 
+The most effective way I've found for organizing and creating encounters is to use Compendium Folders module and create a compendium with Encounters contained within folders for their respective areas. 
 
 **Example:**
 -TG Encounters
@@ -184,7 +184,7 @@ The most effective way I've found for organizing and creating encounters is to t
         - CR Y
             - Monster 3
 -------
-Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
+Doing it like this allows me to quickly import by current area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
 
 If you want to create encounters in this fashion, I've created a folder template for AP use in the **AP 1 - Encounters** compendium.
 
