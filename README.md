@@ -1,9 +1,16 @@
 # ap-template
 Adventure Path creation tool for Foundry VTT
 
-This is a pre-made module template for the creation of Adventure Paths and Homebrew adventures. It is based on the structure of Pathfinder AP's (3 Parts with Appendices) but can be adopted for other systems. Please read below, as it explains how I set things up, and some suggestions to speed up your adventure creations.
+This is a pre-made module template for the creation of Adventure Paths and Homebrew adventures. It is based on the structure of Pathfinder AP's (3 Parts with Appendices) but can be adopted for other systems. 
+Please read below, as it explains how I set things up, and some suggestions to speed up your adventure creations.
 
-It is set up with compendiums for items, npcs, encounters, journals, and tables.
+It is set up with compendiums for items, npcs, encounters, journals, and tables. And is intended to provide a framework for others to build AP's off of. (Feedback welcome)
+
+
+# Installation
+
+To install this module, use the following link in the foundry browser:
+https://raw.githubusercontent.com/baileymh/ap-template/main/module.json
 
 
 # How to use this AP Template
@@ -154,7 +161,7 @@ It seems complicated, but once you do it, it'll make more sense. Below are the s
 ------
 
 ## Creating Encounters
-The most effective way I've found for organizing and creating encounters is to to Compendium Folders module and create a compendium separated by AP Parts, with Encounters contained within folders for their respective areas. 
+The most effective way I've found for organizing and creating encounters is to use Compendium Folders module and create a compendium with Encounters contained within folders for their respective areas. 
 
 **Example:**
 -TG Encounters
@@ -177,7 +184,7 @@ The most effective way I've found for organizing and creating encounters is to t
         - CR Y
             - Monster 3
 -------
-Doing it like this allows me to quickly import by area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
+Doing it like this allows me to quickly import by current area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
 
 If you want to create encounters in this fashion, I've created a folder template for AP use in the **AP 1 - Encounters** compendium.
 
