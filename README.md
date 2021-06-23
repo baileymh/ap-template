@@ -183,6 +183,11 @@ The most effective way I've found for organizing and creating encounters is to u
             - Monster 2
         - CR Y
             - Monster 3
+
+
+### Alterntively
+
+Baileywiki has a video describing how to use scene packer and quick encounters to do something similar: https://www.youtube.com/watch?v=xV9QA_wPY4Y&t=1s
 -------
 Doing it like this allows me to quickly import by current area and drag into a scene. Or keep the entire encounter list in the world, and drag the folder over, dropping all entities inside.
 
